@@ -1,0 +1,5 @@
+Method: built-in image_gen edit, October 7, 2026.
+Edit target: smaller golden ginkgo on ivory tile.
+Packaging: scripts/icon.swift exports an opaque full-canvas image at every resolution. macOS supplies the application-icon shape; navigation crops the same master into a circle.
+Prompt:
+Use case: precise-object-edit. Edit target: the provided golden ginkgo bonsai icon. Preserve the same centered golden ginkgo tree, smaller size, fan-shaped yellow leaves, curved brown trunk and bronze pot exactly. Change only the background. It must be a SINGLE UNIFORM FLAT SOLID warm ivory color, RGB approximately 247, 242, 227, filling the ENTIRE square canvas edge to edge. No rounded tile, no inner square, no border, no vignette, no gradient, no corner transparency, no gray outer area, no separate plaque. The image must be a fully opaque square because macOS will apply its own rounded icon mask. Keep current tree scale and placement, no text or added objects. Only the tree and its natural dimensional rendering may differ in color from the uniform ivory backdrop.

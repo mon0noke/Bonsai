@@ -1,0 +1,19 @@
+{
+  "upstream": "https://github.com/tw93/Mole",
+  "revision": "c430bac637929ebede043df81d3bef319428309c",
+  "scope": "Read-only uninstall and startup protection classifier. Other services remain native; CLI has no third-party app update or general login-item API.",
+  "functions": [
+    "bundle_matches_pattern",
+    "build_regex_var",
+    "_ensure_uninstall_regex",
+    "should_protect_from_uninstall",
+    "official_uninstaller_vendor"
+  ],
+  "upstreamFunctionBytesUnchanged": true,
+  "files": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "protection.sh": "ca1779b0355414b9e73351e42afb8cd51cf191c68400e0394ea0eb7bc0d85b05",
+    "app_protection_data.sh": "0aa1b21cc6cbdb625c22f543a8eb23081b6c9bfccaf268993954973143507db7"
+  },
+  "brandingNote": "Adapter header renamed for Bonsai; upstream protection functions and data retained."
+}

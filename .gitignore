@@ -1,0 +1,47 @@
+.build/
+work/
+.DS_Store
+outputs/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+__pycache__/
+*.pyc
+
+# Local credentials and signing material never belong in source control.
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision
+
+# Historical personal development/session records remain on this Mac.
+docs/PROGRESS.md
+docs/REMAKE.md
+docs/CHATGPT-PROJECT.md
+
+# Local release outputs, credentials and archived development notes.
+release-assets/
+*.log
+AGENTS.md
+docs/*-UPDATE.md
+docs/DIRECT-REMOVAL-REPORT.md
+docs/CONTROL-REFRESH.md
+docs/COMPACT-CONTROLS.md
+docs/SETTINGS-*.md
+docs/CURRENT-*.md
+docs/VERIFICATION.md
+docs/RELEASE.md
+docs/GITHUB.md
+docs/PROGRESS.md
+docs/REMAKE.md
+docs/CHATGPT-PROJECT.md
+
+docs/NOTIFICATION-POLICY.md
+
+# Publication reports remain local.
+/Bonsai-*.json

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Bonsai</string>
+	<key>CFBundleExecutable</key>
+	<string>Bonsai</string>
+	<key>CFBundleIconFile</key>
+	<string>Bonsai.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>app.bonsai.mac</string>
+	<key>CFBundleName</key>
+	<string>Bonsai</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>73</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Bonsai measures folders you choose on your Desktop and shows files for your review. Nothing is removed without confirmation.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Bonsai measures folders you choose on your Documents and shows files for your review. Nothing is removed without confirmation.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Bonsai measures folders you choose on your Downloads and shows files for your review. Nothing is removed without confirmation.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Bonsai contributors. GPL-3.0. No warranty.</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>Bonsai measures folders you choose on your network drives and shows files for your review. Nothing is removed without confirmation.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>Bonsai measures folders you choose on your removable drives and shows files for your review. Nothing is removed without confirmation.</string>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+</dict>
+</plist>

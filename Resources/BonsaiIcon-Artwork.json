@@ -1,0 +1,13 @@
+{
+  "file": "BonsaiIcon.png",
+  "creationMethod": "Built-in image_gen edit of smaller golden ginkgo: one edge-to-edge opaque ivory background, no inset tile; native opaque packaging",
+  "source": "docs/GINKGO-FLAT-BACKGROUND-PROMPT.txt",
+  "pixelWidth": 1254,
+  "pixelHeight": 1254,
+  "transparentBackground": false,
+  "sha256": "472abe210d048d150906b7c000bcfe373af1ab26c1658e41e5bf43a67db87805",
+  "date": "2026-10-07",
+  "version": "3.6.5",
+  "packaging": "scripts/icon.swift",
+  "navigation": "Circle crop of the same opaque packaged master"
+}

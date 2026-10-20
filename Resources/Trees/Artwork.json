@@ -1,0 +1,51 @@
+{
+  "created": "2026-10-05",
+  "method": "built-in image_gen.imagegen; transparent_background=true; original assets copied without editing or resampling",
+  "use": "Five original local bonsai portraits: cherry blossom/Clean, Chinese elm/Apps, Japanese maple/Optimize, black pine/Analyze, olive/Status. Golden ginkgo is reserved exclusively for app identity and is not a scene.",
+  "assets": [
+    {
+      "file": "CherryBonsai.png",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "hasAlpha": true,
+      "sha256": "636506cb1a7dbfdbcd696005b37ab69858d125cd53b2e4091cbdf67b162e5a2e",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent botanical portrait for a premium native Mac app called Bonsai. A single miniature bonsai tree in a shallow ceramic pot, centered, entire tree and pot visible with generous transparent margins. Elegant detailed 3D illustration, sculptural curved trunk and asymmetrical canopy, soft luminous lighting, refined Japanese botanical mood, softly textured foliage, plausible botanical structure, subtle painterly realism. Square composition. No text, no scene, no ground, no shadow beyond pot, no extra objects, no frame, no watermark. Genuinely transparent background. Tree fills roughly 80% of image height. Pot rim at 82% image height. Colors remain readable on ivory and charcoal backgrounds. Subject: flowering Japanese cherry blossom bonsai, delicate blush pink petals with a few mint green leaves, aged warm brown trunk, warm ivory ceramic oval pot. Airy elegant canopy, softly lit petals, no detached falling petals."
+    },
+    {
+      "file": "PineBonsai.png",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "hasAlpha": true,
+      "sha256": "6cf7a43b0388f3691a34f976e5b8119829d2ef77e3a6373f7d65f0f7e8b0660b",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent botanical portrait for a premium native Mac app called Bonsai. A single miniature bonsai tree in a shallow ceramic pot, centered, entire tree and pot visible with generous transparent margins. Elegant detailed 3D illustration, sculptural curved trunk and asymmetrical canopy, soft luminous lighting, refined Japanese botanical mood, softly textured foliage, plausible botanical structure, subtle painterly realism. Square composition. No text, no scene, no ground, no shadow beyond pot, no extra objects, no frame, no watermark. Genuinely transparent background. Tree fills roughly 80% of image height. Pot rim at 82% image height. Colors remain readable on ivory and charcoal backgrounds. Subject: Japanese black pine bonsai, layered sculptural evergreen foliage pads, windswept curved trunk, deep moss and jade green needles, warm muted celadon ceramic oval pot. Calm rich botanical greens, no detached needles."
+    },
+    {
+      "file": "MapleBonsai.png",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "hasAlpha": true,
+      "sha256": "87ff983111bffc3d05ff7c319e94cd1c0607388bf7b9292c7bc12aff78da45b9",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent botanical portrait for a premium native Mac app called Bonsai. A single miniature bonsai tree in a shallow ceramic pot, centered, entire tree and pot visible with generous transparent margins. Elegant detailed 3D illustration, sculptural curved trunk and asymmetrical canopy, soft luminous lighting, refined Japanese botanical mood, softly textured foliage, plausible botanical structure, subtle painterly realism. Square composition. No text, no scene, no ground, no shadow beyond pot, no extra objects, no frame, no watermark. Genuinely transparent background. Tree fills roughly 80% of image height. Pot rim at 82% image height. Colors remain readable on ivory and charcoal backgrounds. Subject: Japanese maple bonsai, sculptural branching trunk, small copper-orange and warm coral maple leaves with subtle gold tips, low warm terracotta ceramic oval pot. Refined airy canopy, no detached leaves."
+    },
+    {
+      "file": "ElmBonsai.png",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "hasAlpha": true,
+      "sha256": "e8e44fd776aa1ceab42a75866a72065d3833867a1ed77d6ca7b634fa3a1f449c",
+      "created": "2026-10-08",
+      "method": "built-in image_gen.imagegen; transparent_background=true; generated originals copied without resampling",
+      "promptSummary": "Create an original realistic botanical bonsai portrait for Bonsai, matching the existing Cherry/Pine/Maple transparent assets. Subject: Ulmus parvifolia, Chinese elm for Apps. Entire tree, aged detailed trunk, moss and shallow ceramic pot visible, centered, filling roughly 85% of a square canvas. Natural small leaves, believable asymmetrical branching, restrained studio light. Transparent background; no text, stage, detached shadows or framing."
+    },
+    {
+      "file": "OliveBonsai.png",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "hasAlpha": true,
+      "sha256": "a8efd7ae2c6fa2b62508e53ba2604fc3f99f46c41c77a1958a4f2902343c7081",
+      "created": "2026-10-08",
+      "method": "built-in image_gen.imagegen; transparent_background=true; generated originals copied without resampling",
+      "promptSummary": "Create an original realistic botanical bonsai portrait for Bonsai, matching the existing Cherry/Pine/Maple transparent assets. Subject: Olea europaea, olive for Status. Entire tree, aged detailed trunk, moss and shallow ceramic pot visible, centered, filling roughly 85% of a square canvas. Natural small leaves, believable asymmetrical branching, restrained studio light. Transparent background; no text, stage, detached shadows or framing."
+    }
+  ]
+}

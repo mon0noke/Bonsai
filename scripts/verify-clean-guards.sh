@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+source scripts/environment.sh
+BIN="$PWD/work/build-release/arm64-apple-macosx/release"
+SOURCES=()
+while IFS= read -r file; do SOURCES+=("$file"); done < <(rg --files Sources/Bonsai -g '*.swift' | rg -v '/BonsaiApp.swift$' | sort)
+xcrun swiftc -larchive -F "$PWD/Vendor/Sparkle.xcframework/macos-arm64_x86_64" -framework Sparkle -Xlinker -rpath -Xlinker "$PWD/Vendor/Sparkle.xcframework/macos-arm64_x86_64" -sdk "$BONSAI_SDK" -target arm64-apple-macos14.0 -module-cache-path work/module-cache -I "$BIN/Modules" -I "$BIN/CBonsai.build" "${SOURCES[@]}" scripts/verify-clean-guards.swift "$BIN"/BonsaiCore.build/*.swift.o "$BIN"/CBonsai.build/*.o -framework IOKit -framework Security -o outputs/CleanGuardVerify
+./outputs/CleanGuardVerify
