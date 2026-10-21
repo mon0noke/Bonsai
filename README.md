@@ -57,8 +57,6 @@ bash scripts/test.sh
 | `Vendor` | Bundled dependencies |
 | `scripts` | Build and verification tools |
 
-Build products, local preferences, credentials and development backups are excluded from this repository.
-
 ## License
 
 GPL-3.0. See [LICENSE](LICENSE) and the included dependency notices.
