@@ -1,5 +1,5 @@
 // Render the README's looping canopy motion from the original app artwork.
-// Usage: swift scripts/render-readme-tree.swift Resources/BonsaiIcon.png work/readme-tree
+// Usage: swift scripts/render-readme-tree.swift docs/assets/GoldenGinkgo.png work/readme-tree
 // Encode the frames at 16 fps using ffmpeg's palettegen/paletteuse GIF filters.
 import Foundation
 import CoreGraphics
@@ -24,7 +24,8 @@ func bitmap() -> CGContext {
 let bounds = CGRect(x: 0, y: 0, width: edge, height: edge)
 let reduced = bitmap()
 reduced.interpolationQuality = .high
-reduced.draw(original, in: bounds)
+// Match the original logo's breathing room using the transparent tree cutout.
+reduced.draw(original, in: bounds.insetBy(dx: CGFloat(edge) * 0.15, dy: CGFloat(edge) * 0.15))
 let artwork = reduced.makeImage()!
 
 func vertex(_ column: Int, _ row: Int, phase: Double) -> CGPoint {
@@ -66,7 +67,6 @@ for frame in 0..<frameCount {
         let phase = Double(frame) / Double(frameCount) * 2 * .pi
         let context = bitmap()
         context.interpolationQuality = .high
-        context.draw(artwork, in: bounds)
         for row in 0..<rows {
             for column in 0..<columns {
                 let grid = [(column, row), (column + 1, row), (column + 1, row + 1), (column, row + 1)]
@@ -88,7 +88,7 @@ for frame in 0..<frameCount {
             context.translateBy(x: x, y: y)
             context.rotate(by: angle * 2 + offset)
             context.scaleBy(x: 0.65 + abs(cos(phase * 2 + offset)) * 0.35, y: 1)
-            context.setFillColor(CGColor(srgbRed: 0.90, green: 0.62, blue: 0.08, alpha: 0.35))
+            context.setFillColor(CGColor(srgbRed: 0.90, green: 0.62, blue: 0.08, alpha: 0.65))
             let fan = CGMutablePath()
             fan.move(to: CGPoint(x: 0, y: -2))
             fan.addCurve(to: CGPoint(x: -2.6, y: 1.7), control1: CGPoint(x: -1.2, y: -1), control2: CGPoint(x: -3.4, y: 0.5))
