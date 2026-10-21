@@ -1,6 +1,6 @@
 # Bonsai
 
-<img src="Resources/Trees/CherryBonsai.png" width="160" align="right" alt="Cherry blossom bonsai">
+<img src="Resources/BonsaiIcon.png" width="160" align="right" alt="Golden ginkgo bonsai">
 
 **A little care. A lighter Mac.**
 
