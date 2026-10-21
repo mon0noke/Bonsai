@@ -1,6 +1,6 @@
 # Bonsai
 
-<img src="Resources/BonsaiIcon.png" width="160" align="right" alt="Golden ginkgo bonsai">
+<img src="docs/assets/GoldenGinkgo.gif" width="160" align="right" alt="Golden ginkgo bonsai gently swaying in the breeze">
 
 **A little care. A lighter Mac.**
 
